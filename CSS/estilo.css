@@ -1,7 +1,6 @@
 #header{
     background-color: #031633;
 }
-
 #title{
     color:white;
 }
@@ -19,7 +18,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .hero-content {
     background-color: rgba(0, 0, 0, 0.7); /* fondo oscuro para leer bien */
     color: white;
