@@ -4,127 +4,156 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Martin Jaimes</title>
+
   <link rel="stylesheet" href="../CSS/estilo.css">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
-<div class="container-fluid py-4 px-4" id="header">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <div class="container-fluid py-4 px-4" id="header">
     <div class="row align-items-center">
 
-        <div class="col-md-6 d-flex justify-content-center">
-            <h2 id="title" class="mb-0 text-warning">Martin Eduardo Jaimes Zambrano</h2>
-        </div>
+      <div class="col-md-6 d-flex justify-content-center">
+            <h2 id="title" class="mb-0 text-warning"><a href="../index.html" class="text-decoration-none text-warning">Martin Eduardo Jaimes Zambrano</a></h2>
+      </div>
 
-        <div class="col-md-6 d-flex justify-content-center">
-            <nav>
-                <ul class="d-flex list-unstyled mb-0" id="paginasMenu">
-                    <li class="me-3"> <h4> <a href="../index.html">Inicio</a> </h4></li>
-                    <li class="me-3"> <h4> <a href="topic.html">Temática</a> </h4></li>
-                    <li class="me-3"> <h4> <a href="degree.html">Grado</a> </h4></li>
-                    <li class="me-3"> <h4> <a href="about.html">Acerca de mi</a> </h4></li>
-                    <li class="me-3"> <h4> <a href="net.html">Red</a> </h4></li>
-                    <li class="me-3"> <h4> <a href="contact.html">Contacto</a> </h4></li>
-
-                  </ul>
-            </nav>
-        </div>
+      <div class="col-md-6 d-flex justify-content-center">
+        <nav>
+          <ul class="d-flex list-unstyled mb-0" id="paginasMenu">
+            <li class="me-3"><h4><a href="../index.html">Inicio</a></h4></li>
+            <li class="me-3"><h4><a href="topic.html">Temática</a></h4></li>
+            <li class="me-3"><h4><a href="degree.html">Grado</a></h4></li>
+            <li class="me-3"><h4><a href="about.html">Acerca de mi</a></h4></li>
+            <li class="me-3"><h4><a href="net.html">Red</a></h4></li>
+            <li class="me-3"><h4><a href="contact.html">Contacto</a></h4></li>
+          </ul>
+        </nav>
+      </div>
 
     </div>
-</div>
-<div class="container-fluid hero">
+  </div>
+
+  <div class="container-fluid hero">
     <div class="hero-content">
-        <h1>Contacto</h1>
-        <p class="text-warning">Lugar donde me puedes contactar</p>
+      <h1>Contacto</h1>
+      <p class="text-warning">Lugar donde me puedes contactar</p>
     </div>
-</div>
-  
-<div class="container">
+  </div>
+
+  <div class="container">
     <div class="row d-flex flex-row">
-        <div class="col-7 align-content-center">
-            <form>
-                <h4 class="text-success pb-3">
-                    Formulario de contacto
-                </h4>
-                <div class="mb-3">
-                    <label for="correo" class="form-label">Correo Electrónico</label>
-                    <input 
-                        type="email" 
-                        class="form-control" 
-                        id="correo"
-                        placeholder="name@example.com"
-                        required
-                    >
-                </div>
 
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">Descripción del asunto</label>
-                    <textarea 
-                        class="form-control" 
-                        id="mensaje"
-                        placeholder="Escribe aquí!"
-                        rows="3"
-                        required
-                    ></textarea>
-                </div>
+      <div class="col-7 align-content-center">
+        <form>
+          <h4 class="text-success pb-3">Formulario de contacto</h4>
 
-                <div class="mb-3">
-                    <button 
-                        class="btn btn-primary"
-                        type="button"
-                        data-bs-toggle="modal"
-                        data-bs-target="#modalConfirmacion">
-                        Enviar formulario
-                    </button>
-                </div>
-            </form>
-            </div>
-        <div class="col-5">
-            <h5 class="text-success text-center">
-               Alguna duda o comentario? Contáctame!
-            </h5>
-            <h5 class="px-3">
-                En este apartado puedes contactarme por medio de este formulario, escribe tu correo, el asunto y yo mismo te contactaré a traves de tu correo!.
-            </h5>
-            <img src="../imagenes/3.jpg" id="imagenContact" style="width: 100%;">
-        </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo Electrónico</label>
+            <input
+              type="email"
+              class="form-control"
+              id="correo"
+              placeholder="name@example.com">
+          </div>
+
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Descripción del asunto</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              placeholder="Escribe aquí!"
+              rows="3"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="validarFormulario()">
+              Enviar formulario
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-5">
+        <h5 class="text-success text-center">
+          ¿Alguna duda o comentario? ¡Contáctame!
+        </h5>
+        <h5 class="px-3">
+          En este apartado puedes contactarme por medio de este formulario, escribe tu correo, el asunto
+          y yo mismo te contactaré a través de tu correo.
+        </h5>
+        <img src="../imagenes/3.jpg" id="imagenContact" style="width: 100%;">
+      </div>
+
     </div>
-</div>
+  </div>
 
+  <div class="modal fade" id="modalConfirmacion" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
 
-<div class="modal fade" id="modalConfirmacion" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Información guardada correctamente!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Su informacion ha sido enviada correctamente, el dueño de la página se comunicara por medio de su correo electronico</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <p></p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+
       </div>
     </div>
   </div>
-</div>
 
+  <script>
+    function validarFormulario() {
+      const correo = document.getElementById("correo").value.trim();
+      const mensaje = document.getElementById("mensaje").value.trim();
 
+      if (correo === "" || mensaje === "") {
+        alert("⚠️ Por favor, rellena todos los campos antes de enviar el formulario.");
+        return;
+      }
 
-<footer class="bg-dark text-white py-4 mt-5">
+      document.querySelector("#modalConfirmacion .modal-title").textContent =
+        "¡Formulario enviado correctamente!";
+
+      document.querySelector("#modalConfirmacion .modal-body p").textContent =
+        "Muchas gracias por escribirnos. Nos pondremos en contacto contigo a la mayor brevedad posible.";
+
+      const modal = new bootstrap.Modal(
+        document.getElementById("modalConfirmacion")
+      );
+      modal.show();
+    }
+  </script>
+
+  <footer class="bg-dark text-white py-4 mt-5">
     <div class="container text-center">
-        <p class="mb-1">© 2025 Martin Eduardo Jaimes Zambrano</p>
-        <p class="mb-0">
-            <a href="../index.html" class="text-white text-decoration-none me-3">Inicio</a>
-            <a href="topic.html" class="text-white text-decoration-none me-3">Temática</a>
-            <a href="degree.html" class="text-white text-decoration-none me-3">Grado</a>
-            <a href="about.html" class="text-white text-decoration-none me-3">Acerca de mí</a>
-            <a href="net.html" class="text-white me text-decoration-none me-3">Red</a>
-            <a href="contact.html" class="text-white text-decoration-none  me-3">Contacto</a>
-        </p>
+      <p class="mb-1">© 2025 Martin Eduardo Jaimes Zambrano</p>
+      <p class="mb-0">
+        <a href="../index.html" class="text-white text-decoration-none me-3">Inicio</a>
+        <a href="topic.html" class="text-white text-decoration-none me-3">Temática</a>
+        <a href="degree.html" class="text-white text-decoration-none me-3">Grado</a>
+        <a href="about.html" class="text-white text-decoration-none me-3">Acerca de mí</a>
+        <a href="net.html" class="text-white text-decoration-none me-3">Red</a>
+        <a href="contact.html" class="text-white text-decoration-none me-3">Contacto</a>
+      </p>
     </div>
-</footer>
+  </footer>
+
 </body>
 </html>
